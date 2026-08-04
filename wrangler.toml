@@ -1,0 +1,16 @@
+name = "classicravi-project-show-case-project-sparkle-and-shine-67-main"
+main = "project-sparkle-and-shine-67-main/.output/server/index.mjs"
+compatibility_date = "2026-08-04"
+compatibility_flags = ["nodejs_compat"]
+no_bundle = true
+
+[assets]
+binding = "ASSETS"
+directory = "project-sparkle-and-shine-67-main/.output/public"
+
+[build]
+command = "cd project-sparkle-and-shine-67-main && npm install && npm run build"
+
+[[rules]]
+type = "ESModule"
+globs = ["project-sparkle-and-shine-67-main/.output/server/**/*.mjs", "project-sparkle-and-shine-67-main/.output/server/**/*.js"]
