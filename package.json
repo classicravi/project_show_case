@@ -1,0 +1,7 @@
+{
+  "name": "classicravi-project-show-case-root",
+  "private": true,
+  "scripts": {
+    "build": "cd project-sparkle-and-shine-67-main && npm install && npm run build"
+  }
+}
