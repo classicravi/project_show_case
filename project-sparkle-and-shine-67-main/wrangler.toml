@@ -9,7 +9,7 @@ binding = "ASSETS"
 directory = ".output/public"
 
 [build]
-command = "npm run build"
+command = "npm install && npm run build"
 
 [[rules]]
 type = "ESModule"
